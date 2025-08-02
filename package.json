@@ -1,6 +1,6 @@
 {
   "name": "node-verify-env",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Verify all environment variables used in the project exist in .env",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

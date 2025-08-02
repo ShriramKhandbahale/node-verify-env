@@ -64,7 +64,7 @@ npx node-verify-env --project-path ./src --env-path ./config/.env --ignore OPTIO
 ```ts
 import { verifyEnv } from "node-verify-env";
 
-await verifyEnv({
+verifyEnv({
   projectPath: "./src",      // Directory to scan (default: process.cwd())
   envPath: ".env",           // Path to .env file (default: ".env")
   ignore: ["OPTIONAL_VAR"]   // Variables to ignore

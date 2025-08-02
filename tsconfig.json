@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    // File Layout
+    "rootDir": "./src", // Where your TS source lives
+    "outDir": "./dist", // Where compiled JS should go
+    // Environment Settings
+    "module": "nodenext", // Needed for ESM in Node.js
+    "target": "esnext", // Latest JS features
+    "types": [
+      "node"
+    ], // Add Node types
+    "lib": [
+      "esnext"
+    ],
+    // Other Outputs
+    "sourceMap": true,
+    "declaration": true, // Generate .d.ts files
+    "declarationMap": true, // Map declarations to source
+    // Stricter Typechecking Options
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    // Recommended Options
+    "strict": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    // JSX (not needed unless React components)
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src"
+  ]
+}

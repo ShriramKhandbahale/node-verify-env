@@ -1,0 +1,50 @@
+{
+  "name": "node-verify-env",
+  "version": "1.0.0",
+  "description": "Verify all environment variables used in the project exist in .env",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "verify-env": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "ts-node src/cli.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "glob": "^10.3.3"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "verify",
+    "environment variables",
+    "validation",
+    "nodejs",
+    "config",
+    "typescript",
+    "cli-tool"
+  ],
+  "author": {
+    "name": "Shriram Khandbahale",
+    "email": "shriramskhandbahale@gmail.com",
+    "url": "https://github.com/shriramkhandbahale"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shriramkhandbahale/node-verify-env.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shriramkhandbahale/node-verify-env/issues"
+  },
+  "homepage": "https://github.com/shriramkhandbahale/node-verify-env#readme"
+}
